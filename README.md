@@ -2,13 +2,13 @@
 
 Este repositório contém o diagnóstico analítico, os scripts de tratamento e o painel de visualização de dados dedicados ao mapeamento do abandono escolar no Ensino Médio brasileiro, utilizando como base os Indicadores Educacionais do INEP (2022).
 
-## 📊 Acesso à Visualização de Dados (Dashboard)
+##  Acesso à Visualização de Dados (Dashboard)
 O painel interativo foi desenvolvido no Looker Studio e pode ser acessado publicamente através do link abaixo:
-* 👉 [Acesse aqui o Dashboard Interativo no Looker Studio]((https://datastudio.google.com/reporting/2ba14ec6-9ebf-47ff-976c-39238b756e9f))
+*  [Acesse aqui o Dashboard Interativo no Looker Studio]((https://datastudio.google.com/reporting/2ba14ec6-9ebf-47ff-976c-39238b756e9f))
 
 ---
 
-## 📑 Documentação do Projeto
+##  Documentação do Projeto
 
 ### 1. Coleta de Dados
 O processo de coleta de dados foi estruturado de forma automatizada com foco em transparência e reprodutibilidade. A base de dados primária corresponde aos Indicadores Educacionais por Município do ano de 2022, mantidos pelo Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP/Censo Escolar). 
@@ -29,7 +29,7 @@ Diante desse cenário diagnosticado pelos dados, qualquer intervenção governam
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 * **Python / Pandas:** Limpeza, engenharia de recursos (recursos geográficos) e tratamento de nulos.
 * **SQL (Google bigquery):** Extração otimizada de dados públicos via API *Base dos Dados*.
 * **Excel (.xlsx):** Formato de modelagem de dados para portabilidade.
